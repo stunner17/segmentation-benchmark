@@ -6,7 +6,8 @@ run with default settings, against expert annotations.
 
 ## Headline
 
-On 79 fluorescence images with 7,764 hand-annotated nuclei. F1 at IoU 0.5, mean with 95% CI:
+Results on 79 fluorescence images containing 7,764 expert-annotated nuclei (mean per-image F1
+at IoU 0.5, with 95% CI):
 
 | Tool | All images | Tissue sections (n=12) |
 |---|---:|---:|
@@ -131,3 +132,8 @@ Results go to `results/` (summary, per-image metrics, paired tests, timings) and
 - Greenwald N.F. et al. Whole-cell segmentation of tissue images with human-level performance using large-scale data annotation and deep learning (Mesmer). *Nature Biotechnology* 40:555-565, 2022.
 - Kirillov A. et al. Panoptic segmentation. *CVPR*, 2019.
 - Kumar N. et al. A dataset and a technique for generalized nuclear segmentation for computational pathology (AJI). *IEEE TMI* 36:1550-1560, 2017.
+
+## Licence
+
+Code is released under the [MIT licence](LICENSE). The Kromp et al. dataset is CC0 and is not
+redistributed here.
